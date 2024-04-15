@@ -143,11 +143,11 @@ Once a vulnerable image has been pushed to the Azure Container Registry, then Mi
     ![Microsoft Defender](images/m2-ex3-step2.png)
  
 3. Now under Secure score recommendations pane, set the **Resource type** filter to have it equal to **Container registries** **(1)** and then expand the **Remediate vulnerabilities** **(2)**. Click on the recommendation **Container registry images should have vulnerability findings resolved** **(3)** to get more details about it.  
-   ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.1.png)
+    ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.1.png)
 
 4. Look around at what's available in the recommendation. Take a note of the Remediation Steps.
 
-   ![Remediation Steps](images/m2-ex3-step4.png)
+    ![Remediation Steps](images/m2-ex3-step4.png)
   
 5. Select the vulnerability **Container registry images should have vulnerability findings resolved**, under **Security Checks**, select one of the items in the list to get additional details about the patch available for it and how to remediate it.
 
