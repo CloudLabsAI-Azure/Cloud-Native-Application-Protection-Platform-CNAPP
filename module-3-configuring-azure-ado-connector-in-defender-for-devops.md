@@ -57,6 +57,8 @@ In this exercise you will create a new Azure DevOps organization.
 
       ![](images/m3-img49.png)
 
+    <validation step="a9112eda-7782-494d-88f3-cd8108c7ed78" />
+
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
 	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -286,6 +288,8 @@ In order to view the scan results (when you execute the pipelines), in an easier
 
      ![](images/upgradeinst.png)
 
+    <validation step="609dc17b-7513-44b6-9cb4-9a220647f204" />
+
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
 	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -392,6 +396,8 @@ The purpose of this exercise is to allow you to see how the extension used by De
 15. Once it finishes you can see scan done by Defender for DevOps. To do that click **Microsoft Security DevOps** section in the left and you will see the output of the actions that were done as shown below:
 
       ![](images/m3-img45.png)
+
+    <validation step="4c5ea710-42ed-4137-bf8d-e835226629ca" />
 
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
