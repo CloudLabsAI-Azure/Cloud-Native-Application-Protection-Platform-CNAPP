@@ -15,7 +15,19 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 
 1. For Device Verification Code, use the same credentials as in the previous step, open http://outlook.office.com/ in a private window and enter the same username and password used for GitHub Account login. Copy the verification code and Paste code it in Device verification.
 
-   ![](images/email-verify.png)   
+   ![](images/email-verify.png)
+
+3. Navigate to following Git Repository **(1)** and click on **Fork (2)**.
+   
+      ```
+      https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main
+      ```
+     
+    ![](images/m4-img22.png)
+
+4. In **Create a new fork**, disable **Copy the main branch only (1)** and click **Create fork (1)**. 
+
+      ![](images/m4-img23.png)   
 
 1. Go to **Microsoft-Defender-for-cloud** repository,click on **Settings (1)**, under **Actions (2)** select **General (3)** and set the **Workflow Permissions** to **Read and write permissions (4)** then click **Save (5)**.
 
