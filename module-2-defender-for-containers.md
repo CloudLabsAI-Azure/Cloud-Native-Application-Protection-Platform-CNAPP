@@ -153,7 +153,7 @@ Once a vulnerable image has been pushed to the Azure Container Registry, then Mi
 
     ![Remediation Steps](images/m2-ex3-step4.1.png)
   
-5. Select the vulnerability **Container registry images should have vulnerability findings resolved**, under **vulnerabilites**, select one of the items in the list to get additional details about the patch available for it and how to remediate it.
+5. Select the vulnerability **Azure registry container registry images should have vulnerability findings resolved**, under **vulnerabilites**, select one of the items in the list to get additional details about the patch available for it and how to remediate it.
 
    ![Debian](images/m2-ex3-step5.1.png)
  
