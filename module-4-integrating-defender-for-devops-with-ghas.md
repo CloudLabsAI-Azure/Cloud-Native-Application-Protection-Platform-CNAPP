@@ -156,7 +156,11 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 
 > **Note**: To validate this Module you require **GitHub Username** and **Personal Access Token**.
 >  
->   - You can create a **Personal access token**, by navigating to the user **Settings** and click on **Developer settings** option. Now select **Personal Access Token (1)**, from the drop-down click on **Tokens (classic) (2)** then select **Generate new token (3)** and click on **Generate new token (classic) (4)**. 
+>   - You can create a **Personal access token**, by navigating to the user **Settings** under your profile and click on **Developer settings** option.
+>     
+>     ![](images/git-usersetting.png)
+>     
+>   - Now select **Personal Access Token (1)**, from the drop-down click on **Tokens (classic) (2)** then select **Generate new token (3)** and click on **Generate new token (classic) (4)**. 
 >   
 >       ![](images/pat1.png)
 >
