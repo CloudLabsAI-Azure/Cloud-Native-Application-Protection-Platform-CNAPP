@@ -129,6 +129,7 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="9d684f33-79bc-444a-a3d1-23876756b5dd" />
+
 ### Exercise 3: Investigate the recommendation for vulnerabilities in ACR
 
 Once a vulnerable image has been pushed to the Azure Container Registry, then Microsoft Defender for Containers will start scanning the image for vulnerabilities, by using Qualys. You will now look into the recommendation in Microsoft Defender for Cloud for this. 
