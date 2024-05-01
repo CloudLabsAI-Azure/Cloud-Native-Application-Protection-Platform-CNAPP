@@ -7,7 +7,8 @@ This document will help you deploy the **Cloud Native Application Protection Pla
 
    - **Microsoft License**: Make sure your account has any M365 license.
    - **Azure subscription**: Create a free account [here](https://azure.microsoft.com/free/).
-   - **Azure Permission**: Make sure you have owner Access to the Subscription. 
+   - **Azure Permission**: Make sure you have owner Access to the Subscription.
+   - **GitHub Account**: You would need a GitHub account to complete the lab [Click here to signup free GitHub Account](https://github.com/signup).
 
 ## Prepare your Azure Lab Environment.
 
