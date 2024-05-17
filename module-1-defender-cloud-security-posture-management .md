@@ -150,4 +150,4 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="a9112eda-7782-494d-88f3-cd8108c7ed78" />
+<validation step="cd1ef464-fbfc-464e-a5ac-c4663f942da3" />
