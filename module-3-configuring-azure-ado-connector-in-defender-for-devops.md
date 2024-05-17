@@ -57,15 +57,13 @@ In this exercise you will create a new Azure DevOps organization.
 
       ![](images/m3-img49.png)
 
-    <validation step="a9112eda-7782-494d-88f3-cd8108c7ed78" />
-
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	
-	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="1bdfcec7-cc4e-4c87-ad14-bb67c4034367" />
+    
 ### Exercise 2: Configure the Microsoft Security DevOps Azure DevOps Extension
 
 1.	Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
@@ -288,14 +286,12 @@ In order to view the scan results (when you execute the pipelines), in an easier
 
      ![](images/upgradeinst.png)
 
-    <validation step="609dc17b-7513-44b6-9cb4-9a220647f204" />
-
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	
-	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="07bc50d1-a0f3-4fba-81c2-385606d6d5f3" />
 
 ### Exercise 5: Configure your pipeline using YAML 
 
@@ -397,14 +393,10 @@ The purpose of this exercise is to allow you to see how the extension used by De
 
       ![](images/m3-img45.png)
 
-    <validation step="4c5ea710-42ed-4137-bf8d-e835226629ca" />
-
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	
-	- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
+    <validation step="847540fb-759b-44cd-b6ca-b2b88f5ce8e9" />
 
