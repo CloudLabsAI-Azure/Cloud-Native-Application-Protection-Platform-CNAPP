@@ -152,7 +152,7 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 
       ![](images/m4-img28.png)
 
-      <validation step="a9112eda-7782-494d-88f3-cd8108c7ed78" />
+      <validation step="842515c8-c248-417b-b028-ef5d3abd0df4" />
 
 > **Note**: To validate this Module you require **GitHub Username** and **Personal Access Token**.
 >  
