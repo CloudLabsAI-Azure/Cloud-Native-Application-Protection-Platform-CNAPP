@@ -64,11 +64,11 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 
 4.	Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**. Select **Work or school account** Enter the following **Email/Username** and **Password** in the browser and click on **Sign in**:
 
-      * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
+      - Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
 
-      * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
+      - Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
         
-       >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
+    >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
  
 5. Make sure to update **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command.
    
