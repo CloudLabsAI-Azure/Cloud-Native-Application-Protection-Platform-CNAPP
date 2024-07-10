@@ -62,17 +62,14 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 
    ![ACR server name](images/copy-crname1.png)
 
-4.	Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**. Enter the following **Email/Username** and **Password** in the browser and click on **Sign in**:
+4.	Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**. Select **Work or school account** Enter the following **Email/Username** and **Password** in the browser and click on **Sign in**:
 
       * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
 
       * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
         
-     >**Note:** If you are facing any error while using **az login**, use the below command and try running **az login** command again.
-      ```
-      az config set core.enable_broker_on_windows=false
-      ```
-
+     >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
+ 
 5. Make sure to update **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command.
    
    ```
@@ -134,7 +131,7 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 
   <validation step="9049dcde-bf54-499f-b276-71704adbcf9b" />
 
-### Exercise 3: Investigate the recommendation for vulnerabilities in ACR (Read-Only)
+### Exercise 3: Investigate the recommendation for vulnerabilities in ACR 
 
 Once a vulnerable image has been pushed to the Azure Container Registry, then Microsoft Defender for Containers will start scanning the image for vulnerabilities, by using Qualys. You will now look into the recommendation in Microsoft Defender for Cloud for this. 
  
@@ -148,7 +145,7 @@ Once a vulnerable image has been pushed to the Azure Container Registry, then Mi
  
 3. Now under Secure score recommendations pane, set the **Resource type** filter to have it equal to **Container registries**. Click on the recommendation **Azure registry container registry images should have vulnerability findings resolved** to get more details about it.  
     ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.3.png)
-   >**Note:** It may take upto 24hours for Microsoft Defender to update the Recommendations. 
+   >**Note:** It may take few minutes to update the recommendations.
 
 1. Click on **view recommendation for all resources**.
 
