@@ -143,7 +143,8 @@ Once a vulnerable image has been pushed to the Azure Container Registry, then Mi
 
     ![Microsoft Defender](images/m2-ex3-step2.png)
  
-3. Now under Secure score recommendations pane, set the **Resource type** filter to have it equal to **Container registries**. Click on the recommendation **Azure registry container registry images should have vulnerability findings resolved** to get more details about it.  
+3. Now under Secure score recommendations pane, set the **Resource type** filter to have it equal to **Container registries**. Click on the recommendation **Azure registry container registry images should have vulnerability findings resolved** to get more details about it.
+   
     ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.3.png)
    >**Note:** It may take few minutes to update the recommendations.
 
