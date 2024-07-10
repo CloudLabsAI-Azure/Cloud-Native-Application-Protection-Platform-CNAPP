@@ -68,7 +68,7 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 
       - Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
         
-    >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
+        >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
  
 5. Make sure to update **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command.
    
