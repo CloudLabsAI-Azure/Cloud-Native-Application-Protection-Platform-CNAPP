@@ -415,16 +415,3 @@ This exercise focuses on configuring your pipeline using YAML to observe how the
 This module covers setting up a secure DevOps environment by configuring the Azure ADO Connector and Microsoft Security DevOps Azure DevOps Extension. It includes installing the SARIF SAST Scans Tab extension, creating a hosted build agent and pipeline, and configuring the pipeline using YAML to integrate and manage security checks effectively.
 
 
-## Review
-In this lab you have completed the following Exercises:
-- Configuring Azure ADO Connector
-- Configure the Microsoft Security DevOps Azure DevOps Extension
-- Install Free extension SARIF SAST Scans Tab
-- Create a Hosted Build Agent and Pipeline
-- Configure your pipeline using YAML
-
-
-## Congratulations!! You have successfully completed the lab
-
-    
-
