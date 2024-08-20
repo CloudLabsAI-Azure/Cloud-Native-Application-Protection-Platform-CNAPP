@@ -158,7 +158,6 @@ In this exercise, you will learn how to assign governance rules to manage and en
 
 This exercise involves assigning governance rules to ensure compliance and enforce policies within your environment.
 
-
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -171,12 +170,4 @@ This exercise involves assigning governance rules to ensure compliance and enfor
 ## Summary
 In this module,you have completed essential cloud security tasks, starting with enabling the Defender CSPM plan in Read-Only mode to review security posture then exploring attack paths and potential vulnerabilities in your environment, build and analyze queries using Cloud Security Explorer, and finally, assigned governance rules to ensure compliance and effective policy management.
 
-## Review
-In this lab you have completed the following tasks:
-- Enabling Defender CSPM plan (Read Only)
-- Explore Attack Paths in your Environment (Read Only)
-- Build query with Cloud Security Explorer (Read Only)
-- Assign Governance Rule
-
-## Congratulations!! You have successfully completed the lab
 
