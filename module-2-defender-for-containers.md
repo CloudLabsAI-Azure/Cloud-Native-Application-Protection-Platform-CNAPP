@@ -179,11 +179,3 @@ This exercise involves examining and exploring recommendations to address vulner
 ## Summary
 This module guides you through essential container security practices, beginning with verifying your Docker installation. Next, you'll download a vulnerable Docker image from Docker Hub to your Container Registry, and conclude by exploring recommendations for addressing vulnerabilities found in Azure Container Registry (ACR).
 
-## Review
-In this lab you have completed the following Exercises:
-- Verify Docker Installation
-- Download vulnerable image from Docker Hub into the Container Registry
-- Investigate the recommendation for vulnerabilities in ACR
-
-## Congratulations!! You have successfully completed the lab
- 
