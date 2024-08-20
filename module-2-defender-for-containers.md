@@ -67,10 +67,10 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
    ![ACR server name](images/copy-crname1.png)
 
 4.	Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**.
-
+   
     ```
     az login
-    ```
+    ```    
      
 5. Select **Work or school account** Enter the following **Email/Username** and **Password** in the browser and click on **Sign in**:
 
