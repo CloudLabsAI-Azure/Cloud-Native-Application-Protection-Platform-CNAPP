@@ -1,9 +1,11 @@
 # Module 2:  Integrating Defender for DevOps with GitHub Advanced Security
 
 ## Objectives
-In this exercise, you will learn how to configure GitHub Connector in Defender for DevOps.
+In this Module, you will learn how to configure GitHub Connector in Defender for DevOps.
 
 ### Exercise 1: Connecting your GitHub organization
+
+In this exercise, you will how to connect GitHub account with your Organization. 
 
 1. Navigate and login to the GitHub using the following URL on the **Labvm**, by fetching the details from **Environment Details (1)** page on the right tab, click on **Licenses (2)** tab and copy the **GitHub credentials (3)**.
 
@@ -78,7 +80,11 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 
       ![](images/m4-img11.png)
 
+This exercise imcludes connecting your GitHub account with your Organization.
+
 ### Exercise 2: Configure the Microsoft Security DevOps GitHub action
+
+In this exercise, you will learn about configuring the Microsoft Security DevOps GitHub action to automate security checks within your GitHub workflows.
 
 1. Navigate back to **GitHub**, from **Microsoft-Defender-for-Cloud** repository, click on **Actions (1)** and **I understand my workflows, go ahead and enable them (2)**.
 
@@ -167,3 +173,16 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 >   - Enter any name for your PAT in the **Note**, then select the options provided in the screenshot below and click on **Generate Token**. Once the token is generated make sure to **Copy** it and paste it on any text editor such as a notepad. 
 >  
 >       ![](images/pat2.png)
+
+This exercise includes configuring the Microsoft Security DevOps GitHub action to automate security checks in your workflows.
+
+## Summary
+
+In this module, you have learnt about how to connect your GitHub account to your organization's repositories, facilitating streamlined project management and collaboration. Next, you have configured the Microsoft Security DevOps GitHub action to automate security checks within your workflows, enhancing code security and compliance.
+
+## Review
+In this lab you have completed the following Exercises:
+- Connecting your GitHub organization
+- Configure the Microsoft Security DevOps GitHub action
+
+## Congratulations!! You have successfully completed the lab
