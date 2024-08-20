@@ -19,7 +19,7 @@ In this exercise, you will how to connect GitHub account with your Organization.
 
    ![](images/email-verify.png)
 
-3. Navigate to following Git Repository **(1)** and click on **Fork (2)**.
+1. Navigate to following Git Repository **(1)** and click on **Fork (2)**.
    
       ```
       https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main
@@ -27,7 +27,7 @@ In this exercise, you will how to connect GitHub account with your Organization.
      
     ![](images/m4-img22.png)
 
-4. In **Create a new fork**, disable **Copy the main branch only (1)** and click **Create fork (1)**. 
+1. In **Create a new fork**, disable **Copy the main branch only (1)** and click **Create fork (1)**. 
 
       ![](images/m4-img23.png)   
 
@@ -35,48 +35,43 @@ In this exercise, you will how to connect GitHub account with your Organization.
 
       ![](images/m4-img18.png)
 
-2.	Go to [Azure Portal](http://portal.azure.com/), search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**. 
+1.	Go to [Azure Portal](http://portal.azure.com/), search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**. 
 
       ![](images/m1-img1.png)
 
-3.	In the left navigation pane, click **Environment settings (1)**, click the **Add environment (2)** button and click **GitHub (3)**. 
+1.	In the left navigation pane, click **Environment settings (1)**, click the **Add environment (2)** button and click **GitHub (3)**. 
 
       ![](images/m4a-img1.png)
 
-4. In **Create GitHub connection** page, enter the **Connector name** for the connector as `CNAPP-git` **(1)**, select your **Subscription (2)**, select **asclab (3)** **Resource Group** and select any **Location (4)**.	Click **Next: select plans > (5)** button to continue.
+1. In **Create GitHub connection** page, enter the **Connector name** for the connector as `CNAPP-git` **(1)**, select your **Subscription (2)**, select **asclab (3)** **Resource Group** and select any **Location (4)**.	Click **Next: Configure access > (5)** button to continue.
 
-      ![](images/m4a-img2.png)
+      ![](images/cnapp5.png)
 
-5. In the next page leave the default selection with **DevOps** selected and click **Next: Configure access >** button to continue. 
+1. Click **Authorize** button. If you get an authorization pop-up click **Authorize DevOps security**.
 
-      ![](images/m4a-img3.png)
-
-
-6. Click **Authorize** button. If you get an authorization pop-up click **Authorize DevOps security**.
-
-      ![](images/m4a-img4.png)
+      ![](images/cnapp6.png)
 
       ![](images/m4-img5.png)
 
-7. Now click **Install** button under **Install DevOps security app**. If this is the first time you’re authorizing your DevOps connection, you’ll receive a pop-up screen, that will ask you confirmation of which repository you'd like to install the app. Select your **GitHub repository**. 
+1. Now click **Install** button under **Install DevOps security app**. If this is the first time you’re authorizing your DevOps connection, you’ll receive a pop-up screen, that will ask you confirmation of which repository you'd like to install the app. Select your **GitHub repository**. 
 
-      ![](images/m4a-img6.png)
+      ![](images/cnapp7.png)
   
       ![](images/m4-img7.png)
 
-8. Choose **All repositories (1)** and click on **Install (2)**
+1. Choose **All repositories (1)** and click on **Install (2)**
 
       ![](images/m4-img8.png)
 
-9. Back in the **Azure portal**, you’ll notice that the extension is installed, click on **Review and Create** button to continue.  
+1. Back in the **Azure portal**, you’ll notice that the extension is installed, click on **Review and generate** button to continue.  
 
-      ![](images/m4a-img9.png)
+      ![](images/cnapp8.png)
 
-10. Click **Create**.
+1. Click **Create**.
 
       ![](images/m4-img10.png)
 
-11. Navigating to the **Environment Settings** under **Microsoft Defender for Cloud**, you’ll notice the ***GitHub*** Connection was successfully created. 
+1. Navigating to the **Environment Settings** under **Microsoft Defender for Cloud**, you’ll notice the ***GitHub*** Connection was successfully created. 
 
       ![](images/m4-img11.png)
 
@@ -90,15 +85,15 @@ In this exercise, you will learn about configuring the Microsoft Security DevOps
 
       ![](images/m4-img24.png)
 
-2.	Click on **New workflow**.
+1.	Click on **New workflow**.
 
       ![](images/m4-img25.png)
 
-3.	Next, for **Choose a workflow** click on **set up a workflow yourself**.  
+1.	Next, for **Choose a workflow** click on **set up a workflow yourself**.  
 
       ![](images/m4-img26.png)
 
-4. Enter the name for your workflow file as **msdevopssec.yml (1)**. Then copy and paste the following sample action workflow into the **Edit new file (2)** tab. 
+1. Enter the name for your workflow file as **msdevopssec.yml (1)**. Then copy and paste the following sample action workflow into the **Edit new file (2)** tab. 
 
       ```
       name: MSDO IaC Scan
@@ -144,17 +139,17 @@ In this exercise, you will learn about configuring the Microsoft Security DevOps
  
       ![](images/m4-img27.png)
 
-5.	Click on **Commit Changes** and click **Commit Changes** again. 
+1.	Click on **Commit Changes** and click **Commit Changes** again. 
 
       ![](images/m4-img14.png)
 
       ![](images/m4-img15.png)
 
-6. The process can take up to one minute to complete. A workflow gets created in your repositories GitHub folder with the above copied yml file. Select **Actions** and wait for it to complete running. 
+1. The process can take up to one minute to complete. A workflow gets created in your repositories GitHub folder with the above copied yml file. Select **Actions** and wait for it to complete running. 
 
       ![](images/m4-img17.png)
 
-7.	Once this job completes running, navigate to the **Security (1)** tab and click on **Code scanning (2)**. Code scanning findings will be filtered by specific MSDO tools in GitHub.
+1.	Once this job completes running, navigate to the **Security (1)** tab and click on **Code scanning (2)**. Code scanning findings will be filtered by specific MSDO tools in GitHub.
 
       ![](images/m4-img28.png)
 
@@ -179,10 +174,5 @@ This exercise includes configuring the Microsoft Security DevOps GitHub action t
 ## Summary
 
 In this module, you have learnt about how to connect your GitHub account to your organization's repositories, facilitating streamlined project management and collaboration. Next, you have configured the Microsoft Security DevOps GitHub action to automate security checks within your workflows, enhancing code security and compliance.
-
-## Review
-In this lab you have completed the following Exercises:
-- Connecting your GitHub organization
-- Configure the Microsoft Security DevOps GitHub action
 
 ## Congratulations!! You have successfully completed the lab
