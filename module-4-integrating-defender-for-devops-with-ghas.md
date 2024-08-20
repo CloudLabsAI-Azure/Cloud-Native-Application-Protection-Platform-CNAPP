@@ -75,7 +75,7 @@ In this exercise, you will how to connect GitHub account with your Organization.
 
       ![](images/m4-img11.png)
 
-This exercise imcludes connecting your GitHub account with your Organization.
+This exercise includes connecting your GitHub account with your Organization.
 
 ### Exercise 2: Configure the Microsoft Security DevOps GitHub action
 
