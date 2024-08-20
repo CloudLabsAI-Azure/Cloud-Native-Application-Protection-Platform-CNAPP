@@ -29,13 +29,9 @@ In this exercise you will create a new Azure DevOps organization.
 
     ![](images/m3a-img1.png)
 
-6. Enter the **Connector name** for the connector as `CNAPP-Devops` **(1)**, select your **Subscription (2)**, select **asclab (3)** resource group, select any **Region (3)**. Select **Next : Select plans > (5)**.
+6. Enter the **Connector name** for the connector as `CNAPP-Devops` **(1)**, select your **Subscription (2)**, select **asclab (3)** resource group, select any **Region (3)**. Select **Next : Configure access > (5)**.
 
-    ![](images/m3a-img2.png)
-
-7. In the next page leave the default selection with **DevOps** selected and click **Next: Configure access >** button to continue. 
-
-    ![](images/m3a-img3.png)
+    ![](images/cnapp4.png)
 
 8. Click **Authorize** button. If this is the first time you’re authorizing your DevOps connection, you’ll receive a pop-up screen, that will ask your permission to authorize. Scroll down the pop-up window screen and click the **Accept** button as shown in the sample below:
 
@@ -56,15 +52,20 @@ In this exercise you will create a new Azure DevOps organization.
 11. After some minutes you will see the Azure DevOps connector in the **Environment settings** page and in about 15 minutes, you will start to seeing the total resources number populating.
 
       ![](images/m3-img49.png)
+    
+
+    <validation step="1bdfcec7-cc4e-4c87-ad14-bb67c4034367" />    
 
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="1bdfcec7-cc4e-4c87-ad14-bb67c4034367" />
-    
+This exercise involves configuring the Azure DevOps (ADO) connector to integrate and manage DevOps resources within your environment.
+     
 ### Exercise 2: Configure the Microsoft Security DevOps Azure DevOps Extension
+
+In this exercise, you will configure the Microsoft Security DevOps Azure DevOps Extension to enhance security integrations and capabilities within your DevOps environment.
 
 1.	Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
@@ -92,10 +93,11 @@ In this exercise you will create a new Azure DevOps organization.
 
     >**Note** Admin privileges to the Azure DevOps organization are required to install the extension. If you don’t have access to install the extension, you must request access from your Azure DevOps organization’s administrator during the installation process.
 
+This exercise involves setting up the Microsoft Security DevOps Azure DevOps Extension to integrate security features and improve DevOps processes.
 
 ### Exercise 3: Install Free extension SARIF SAST Scans Tab
 
-In order to view the scan results (when you execute the pipelines), in an easier and readable format, install this free extension in your Azure DevOps organization.
+In this exercise, In order to view the scan results (when you execute the pipelines), in an easier and readable format, install this free extension in your Azure DevOps organization.
 
 1. In **Azure DevOps** from the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
@@ -121,8 +123,11 @@ In order to view the scan results (when you execute the pipelines), in an easier
 
      ![](images/m3-img20.png)
 
+This exercise involves installing the free SARIF SAST Scans Tab extension to enable static application security testing and integrate it into your development environment.
 
 ### Exercise 4: Create a Hosted Build Agent and Pipeline
+
+In this exercise, you will create a hosted build agent and pipeline to automate and manage your build processes in a DevOps environment.
 
 1. In the **Azure Portal**, click in the search bar, type **vmss** and then click **Virtual machine scale sets**. 
 
@@ -286,12 +291,15 @@ In order to view the scan results (when you execute the pipelines), in an easier
 
      ![](images/upgradeinst.png)
 
+    <validation step="07bc50d1-a0f3-4fba-81c2-385606d6d5f3" />
+
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="07bc50d1-a0f3-4fba-81c2-385606d6d5f3" />
+
+This exercise involves setting up a hosted build agent and pipeline to automate and streamline your build and deployment processes.
 
 ### Exercise 5: Configure your pipeline using YAML 
 
@@ -349,7 +357,7 @@ The purpose of this exercise is to allow you to see how the extension used by De
 
      ![](images/m3-img38.png)
 
-12. In the **Configure your pipeline** page, replace the **YAML code (1)** for the one below and click **Save and run (2)** :
+12. In the **Review your pipeline** page, replace the **YAML code (1)** for the one below and click **Save and run (2)** :
 
       ```
       # Starter pipeline
@@ -393,10 +401,17 @@ The purpose of this exercise is to allow you to see how the extension used by De
 
       ![](images/m3-img45.png)
 
+    <validation step="847540fb-759b-44cd-b6ca-b2b88f5ce8e9" />
+
 	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="847540fb-759b-44cd-b6ca-b2b88f5ce8e9" />
+This exercise focuses on configuring your pipeline using YAML to observe how the Defender for DevOps extension evaluates and checks the pipeline.
+
+## Summary
+
+This module covers setting up a secure DevOps environment by configuring the Azure ADO Connector and Microsoft Security DevOps Azure DevOps Extension. It includes installing the SARIF SAST Scans Tab extension, creating a hosted build agent and pipeline, and configuring the pipeline using YAML to integrate and manage security checks effectively.
+
 

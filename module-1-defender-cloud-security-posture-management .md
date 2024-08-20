@@ -43,7 +43,11 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](images/m1-img5.png)
 
+In this exercise, you have learnt about Enabling Defender Cloud Security Posture Management (CSPM) in Read-Only mode allows users to view and monitor security posture and compliance without making changes to settings or configurations.
+
 ## Exercise 2: Explore Attack Paths in your Environment (Read Only)
+
+In this exercise, you will investigate and review potential attack paths in your environment in Read-Only mode to understand vulnerabilities without making changes.
 
 1. From **Defender for Cloud** menu, open the **Recommendations (1)** page. You will find Attack path tab as below, click on **Attack path (2)**. You will find the Attack Paths in your Environment. 
 
@@ -61,7 +65,11 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
 6. Explore the rest of the Attack paths found in your Environment and remediate.
 
+This exercise involves examining and reviewing potential attack paths in your environment in Read-Only mode to gain insights into security risks without altering any configurations.
+
 ## Exercise 3: Build query with Cloud Security Explorer (Read Only)
+
+In this exercise, you will use Cloud Security Explorer in Read-Only mode to build and review queries that analyze your cloud security posture without making any modifications.
 
 1. From **Defender for Cloud** menu, open the **Cloud Security Explorer** page.
 
@@ -111,7 +119,11 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](images/m1-img18.png)
 
+This exercise focuses on constructing and analyzing queries with Cloud Security Explorer in Read-Only mode to gain insights into cloud security data without changing configurations.
+
 ## Exercise 4: Assign Governance Rule
+
+In this exercise, you will learn how to assign governance rules to manage and enforce compliance policies within your environment.
 
 1. From the **Defender for Cloud** menu, click on **Environment Settings (1)** page and click on **Governance rules (2)**.
 
@@ -144,10 +156,17 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
     
     ![](images/m1-img24.png)
 
+This exercise involves assigning governance rules to ensure compliance and enforce policies within your environment.
+
+  <validation step="cd1ef464-fbfc-464e-a5ac-c4663f942da3" /> 
+   
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="cd1ef464-fbfc-464e-a5ac-c4663f942da3" />
+## Summary
+In this module,you have completed essential cloud security tasks, starting with enabling the Defender CSPM plan in Read-Only mode to review security posture then exploring attack paths and potential vulnerabilities in your environment, build and analyze queries using Cloud Security Explorer, and finally, assigned governance rules to ensure compliance and effective policy management.
+
+
