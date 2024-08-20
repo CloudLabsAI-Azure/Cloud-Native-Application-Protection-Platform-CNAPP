@@ -158,14 +158,13 @@ In this exercise, you will learn how to assign governance rules to manage and en
 
 This exercise involves assigning governance rules to ensure compliance and enforce policies within your environment.
 
+  <validation step="cd1ef464-fbfc-464e-a5ac-c4663f942da3" /> 
+   
   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-<validation step="cd1ef464-fbfc-464e-a5ac-c4663f942da3" />
-
 
 ## Summary
 In this module,you have completed essential cloud security tasks, starting with enabling the Defender CSPM plan in Read-Only mode to review security posture then exploring attack paths and potential vulnerabilities in your environment, build and analyze queries using Cloud Security Explorer, and finally, assigned governance rules to ensure compliance and effective policy management.
