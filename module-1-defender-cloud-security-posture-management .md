@@ -43,7 +43,7 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](images/m1-img5.png)
 
-In this Exercise. you have learnt about Enabling Defender Cloud Security Posture Management (CSPM) in Read-Only mode allows users to view and monitor security posture and compliance without making changes to settings or configurations.
+In this exercise, you have learnt about Enabling Defender Cloud Security Posture Management (CSPM) in Read-Only mode allows users to view and monitor security posture and compliance without making changes to settings or configurations.
 
 ## Exercise 2: Explore Attack Paths in your Environment (Read Only)
 
