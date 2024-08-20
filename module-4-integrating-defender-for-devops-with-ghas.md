@@ -169,6 +169,12 @@ In this exercise, you will learn about configuring the Microsoft Security DevOps
 >  
 >       ![](images/pat2.png)
 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:<br>
+      - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.<br>
+      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.<br>
+      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help!
+
 This exercise includes configuring the Microsoft Security DevOps GitHub action to automate security checks in your workflows.
 
 ## Summary
