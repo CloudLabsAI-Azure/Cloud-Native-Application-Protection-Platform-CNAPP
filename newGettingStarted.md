@@ -10,7 +10,7 @@
  
 1. Verify all the Virtual Machines are running. If not, please click on **Start** action button in the **Resources** tab.
 
-   ![](images/new-gettingstarted-03.png "Lab Environment")
+   ![](images/startresource-1.png "Lab Environment")
 
 ## Login to Azure Portal
 
