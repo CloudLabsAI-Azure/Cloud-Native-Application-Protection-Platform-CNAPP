@@ -49,7 +49,6 @@ In this exercise, you will verify the installation of Docker to ensure it is pro
 
 This exercise involves checking the Docker installation to confirm that it is correctly installed and operational on your system.
 
-
 ### Exercise 2: Download vulnerable image from Docker Hub into the Container Registry
 
 In this exercise, Now you will use Docker to download a vulnerable image from it and push it into our existing Azure Container registry.
@@ -66,19 +65,19 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
 
    ![ACR server name](images/copy-crname1.png)
 
-4.	Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**.
+4. Switch back to PowerShell, you will also need to login to your Azure subscription via **az login**.
    
     ```
-    az login
-    ```    
+   az login
+   ```    
      
 5. Select **Work or school account** Enter the following **Email/Username** and **Password** in the browser and click on **Sign in**:
 
-      - Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
+   - Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
 
-      - Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
+   - Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
         
-        >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
+   >**Note:** If you are prompted to select a subscription, press enter and proceed with the next steps.
  
 6. Make sure to update **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command.
    
