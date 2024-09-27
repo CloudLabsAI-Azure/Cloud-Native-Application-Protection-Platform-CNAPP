@@ -8,13 +8,26 @@
 
 ## Objective
 
+The objective of the CNAPP lab is to equip participants with the skills to secure and manage cloud-native applications through hands-on experience in visibility, risk assessment, and threat detection. Participants will learn to identify vulnerabilities, implement security controls, and integrate security into the DevOps pipeline, enabling proactive protection of applications and data in dynamic cloud environments.
 
+- **Defender Cloud Security Posture Management:**
+  
+- **Defender for Containers:**
+  
+- **Configuring Azure ADO Connector in Defender for DevOps:**
+  
+- **Integrating Defender for DevOps with GitHub Advanced Security:**
 
 ## Prerequisites
 
 Participants should have:
 
-
+- **Basic Cloud Knowledge:** Familiarity with cloud computing concepts and services (e.g., AWS, Azure, Google Cloud).
+- **Understanding of Containerization:** Knowledge of container technologies such as Docker and Kubernetes.
+- **Security Fundamentals:** A grasp of basic cybersecurity principles and practices.
+- **DevOps Concepts:** Awareness of DevOps methodologies and practices, including CI/CD pipelines.
+- **Scripting Skills:** Basic proficiency in scripting languages (e.g., Python, Bash) for automation tasks.
+- **Networking Basics:** Understanding of networking concepts relevant to cloud environments.
 
 ## Architechture
 
