@@ -10,13 +10,10 @@
 
 The objective of the CNAPP lab is to equip participants with the skills to secure and manage cloud-native applications through hands-on experience in visibility, risk assessment, and threat detection. Participants will learn to identify vulnerabilities, implement security controls, and integrate security into the DevOps pipeline, enabling proactive protection of applications and data in dynamic cloud environments.
 
-- **Defender Cloud Security Posture Management:**
-  
-- **Defender for Containers:**
-  
-- **Configuring Azure ADO Connector in Defender for DevOps:**
-  
-- **Integrating Defender for DevOps with GitHub Advanced Security:**
+- **Defender Cloud Security Posture Management:** To enhance cloud security by assessing and improving the security posture of cloud environments through continuous monitoring and compliance checks. 
+- **Defender for Containers:** To secure containerized applications by providing visibility, threat detection, and vulnerability management throughout the container lifecycle.
+- **Configuring Azure ADO Connector in Defender for DevOps:** To enable seamless integration between Azure DevOps and Defender for DevOps, enhancing security insights and risk management within CI/CD pipelines.
+- **Integrating Defender for DevOps with GitHub Advanced Security:** To strengthen application security by combining GitHub Advanced Security features with Defender for DevOps for comprehensive code scanning and threat protection.
 
 ## Prerequisites
 
@@ -31,7 +28,7 @@ Participants should have:
 
 ## Architechture
 
-
+The architecture of the lab integrates various Azure services and components to create a secure, scalable environment for cloud-native applications. At the core, Azure Defender for Cloud monitors and manages the security posture of both Azure and hybrid environments, ensuring compliance and risk mitigation. Containerized applications are deployed and orchestrated using Azure Kubernetes Service (AKS) and Docker, providing flexibility and efficiency. Azure DevOps Services facilitate continuous integration and delivery (CI/CD) processes, while the Azure ADO Connector enhances security insights within these workflows. GitHub serves as the version control platform, integrating advanced security features to safeguard code. Additionally, Azure Virtual Machine Scale Sets ensure that applications can scale dynamically and maintain high availability, while Azure Active Directory manages user authentication and access across the entire architecture, creating a comprehensive security framework for cloud-native application development and deployment.
 
 ## Architechture Diagram
 
@@ -40,6 +37,13 @@ Participants should have:
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+- **Azure Defender for Cloud:** A unified security management system that helps protect Azure and hybrid environments, ensuring compliance and security posture management.
+- **Docker:** A platform for developing, shipping, and running applications in containers, allowing for consistent environments across different stages of development.
+- **Azure Kubernetes Service (AKS):** A managed container orchestration service that simplifies deploying, managing, and scaling containerized applications using Kubernetes.
+- **Azure DevOps Services:** A suite of development tools that support planning, collaboration, and CI/CD practices, enabling teams to build and deploy applications efficiently.
+- **GitHub:** A platform for version control and collaboration that allows developers to host code repositories and utilize advanced security features for their projects.
+- **Azure Virtual Machine Scale Sets:** A service that enables the deployment and management of a set of identical, load-balanced virtual machines, providing scalability and high availability for applications.
 
 
 ## Getting Started with the Lab
