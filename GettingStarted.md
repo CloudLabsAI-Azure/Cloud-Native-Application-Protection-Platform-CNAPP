@@ -45,10 +45,9 @@ The architecture for this lab involves the following key components:
 - **GitHub:** A platform for version control and collaboration that allows developers to host code repositories and utilize advanced security features for their projects.
 - **Azure Virtual Machine Scale Sets:** A service that enables the deployment and management of a set of identical, load-balanced virtual machines, providing scalability and high availability for applications.
 
-
 ## Getting Started with the Lab
  
-Welcome to your Customer Support Conversation Summarization with Azure OpenAI Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Cloud Native Application Protection Platform - CNAPP Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
