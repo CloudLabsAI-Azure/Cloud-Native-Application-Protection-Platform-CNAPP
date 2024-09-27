@@ -1,19 +1,65 @@
+# Cloud Native Application Protection Platform - CNAPP
+
+### Overall Estimated Duration: 8 hours
+
+## Overview
 
 
-# Module 1: Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises of the lab guide.
-   
+## Objective
 
-   ![](images/img-1.1.png "Lab Environment")
 
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided during registration. You can also open the Lab Guide on a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
 
-   ![](images/img-2.png "Lab Environment")
+## Prerequisites
+
+Participants should have:
+
+
+
+## Architechture
+
+
+
+## Architechture Diagram
+
+
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
+
+## Getting Started with the Lab
  
-1. Verify all the Virtual Machines are running. If not, please click on **Start** action button in the **Resources** tab.
+Welcome to your Customer Support Conversation Summarization with Azure OpenAI Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+ 
+## Accessing Your Lab Environment
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-   ![](images/startresource-1.png "Lab Environment")
+![](../media/labguide.png)
+
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+ 
+![](../media/env01.png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+![](../media/split01.png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+
+![](../media/resourses.png)
 
 ## Login to Azure Portal
 
@@ -21,19 +67,23 @@
 
    ![](images/img-3.png "Lab Environment")
    
-1. On the **Sign in to Microsoft Azure** tab you will see a login screen, enter the following email/username and then click on **Next**. 
+1. On the **Sign in to Microsoft Azure** tab you will see a login screen, enter the following email/username and then click on **Next**.
+   
    * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
    
      ![](images/image7.png "Enter Email")
      
 1. Now enter the following password and click on **Sign in**.
+   
    * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
    
      ![](images/image8.png "Enter Password")
      
 1. On **Action Required** pop-up, click on **Ask later**.
 
-     ![](images/ask-later.png "Ask Later")
+   ![](images/ask-later.png "Ask Later")
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
 
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -49,4 +99,16 @@
 
    ![](images/img-9.png "Resource groups")
    
-1. Now, click on Next from the lower right corner to move to the next page.
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](../media/lab-next.png)
+
+### Happy Learning!!
