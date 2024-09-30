@@ -1,11 +1,19 @@
-# Exercise 4: Integrating Defender for DevOps with GitHub Advanced Security
+# Exercise 04: Integrating Defender for DevOps with GitHub Advanced Security
 
 ### Estimated Duration: 120 minutes
 
-## Objectives
-In this exercise, you will learn how to configure GitHub Connector in Defender for DevOps.
+Integrating Microsoft Defender for DevOps with GitHub Advanced Security enhances the security of the software development lifecycle for teams using GitHub. In this scenario, as developers push code changes, GitHub Advanced Security provides real-time vulnerability analysis, helping to identify potential issues before they reach production. Meanwhile, Defender for DevOps offers visibility into the security posture of the code, enabling automatic scanning for vulnerabilities and secrets detection.
 
-### Exercise 1: Connecting your GitHub organization
+This integration allows for immediate remediation if sensitive information, like secret keys, is accidentally committed to the repository, creating a continuous feedback loop that embeds security into the development process. Additionally, it facilitates compliance by providing detailed security reports and tracking remediation efforts, ensuring adherence to industry standards. Overall, the combined capabilities of Defender for DevOps and GitHub Advanced Security streamline development while effectively managing security risks, fostering collaboration between development and security teams.
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Connecting your GitHub organization
+- Task 2: Configure the Microsoft Security DevOps GitHub action
+
+## Task 1: Connecting your GitHub organization
 
 1. Navigate and login to the GitHub using the following URL on the **Labvm**, by fetching the details from **Environment Details (1)** page on the right tab, click on **Licenses (2)** tab and copy the **GitHub credentials (3)**.
 
@@ -64,7 +72,7 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 
       ![](images/m4-img11.png)
 
-### Exercise 2: Configure the Microsoft Security DevOps GitHub action
+## Task 2: Configure the Microsoft Security DevOps GitHub action
 
 1. Navigate back to **GitHub**, from **Microsoft-Defender-for-Cloud** repository, click on **Actions (1)** and **I understand my workflows, go ahead and enable them (2)**.
 
@@ -150,3 +158,9 @@ In this exercise, you will learn how to configure GitHub Connector in Defender f
 >   - Enter any name for your PAT in the **Note**, then select the options provided in the screenshot below and click on **Generate Token**. Once the token is generated make sure to **Copy** it and paste it on any text editor such as a notepad. 
 >  
 >       ![](images/pat2.png)
+
+## Summary
+
+In this exercise, you connected your GitHub organization to Microsoft Defender for DevOps, enabling enhanced security features within your development workflow. You then configured the Microsoft Security DevOps GitHub Action to automate real-time security checks during the CI/CD process, ensuring that code changes are scanned for vulnerabilities. This integration fosters a secure coding environment and enhances collaboration between development and security teams.
+
+### You have successfully completed the lab
