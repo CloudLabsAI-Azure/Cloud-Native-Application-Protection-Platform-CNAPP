@@ -34,7 +34,7 @@ The architecture of the lab integrates various Azure services and components to 
 
 ## Architechture Diagram
 
-
+![](images/cnapp-arch-diag.png)
 
 ## Explanation of Components
 
