@@ -1,4 +1,4 @@
-# Module 3:   Defender for Containers
+# Exercise 2: Defender for Containers
 
 ### Estimated Duration: 90 minutes
 
