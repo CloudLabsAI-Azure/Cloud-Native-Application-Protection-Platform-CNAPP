@@ -1,4 +1,6 @@
-# Module 2: Defender Cloud Security Posture Management 
+# Module 2: Defender Cloud Security Posture Management
+
+### Estimated Duration: 60 minutes
 
 ## Overview
  
