@@ -53,7 +53,7 @@ Welcome to your Cloud Native Application Protection Platform - CNAPP Workshop! W
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![](../media/labguide.png)
+![](images/img-1.1.png "Lab Environment")
 
 ### Virtual Machine & Lab Guide
  
