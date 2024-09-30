@@ -1,4 +1,4 @@
-# Module 4:  Configuring Azure ADO Connector in Defender for DevOps
+# Exercise 3: Configuring Azure ADO Connector in Defender for DevOps
 
 ### Estimated Duration: 150 minutes
 
