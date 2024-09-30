@@ -1,5 +1,7 @@
 # Module 3:   Defender for Containers
 
+### Estimated Duration: 90 minutes
+
 ## Objectives
 This exercise guides you on how to validate and use Defender for Containers.
 
