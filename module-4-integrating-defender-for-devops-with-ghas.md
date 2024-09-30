@@ -1,4 +1,4 @@
-# Module 5:  Integrating Defender for DevOps with GitHub Advanced Security
+# Exercise 4: Integrating Defender for DevOps with GitHub Advanced Security
 
 ### Estimated Duration: 120 minutes
 
