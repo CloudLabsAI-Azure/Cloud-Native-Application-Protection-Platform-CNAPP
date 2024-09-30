@@ -1,11 +1,22 @@
-# Exercise 2: Defender for Containers
+# Exercise 02: Defender for Containers
 
 ### Estimated Duration: 90 minutes
 
-## Objectives
-This exercise guides you on how to validate and use Defender for Containers.
+Microsoft Defender for Containers is a comprehensive security solution designed to protect containerized applications throughout their lifecycle, from development to production. It offers a robust set of features that help secure both the container images and the orchestration platforms, such as Kubernetes. By integrating seamlessly with Azure services and popular container tools, Defender for Containers provides continuous threat detection, vulnerability management, and runtime protection. Its ability to monitor container environments in real-time enables organizations to identify and respond to threats quickly, ensuring the security of their cloud-native applications.
 
-### Exercise 1: Verify Docker Installation
+For example, consider a software development company that deploys a microservices architecture using Kubernetes. As developers create and deploy containerized applications, they often use various open-source libraries and frameworks. Defender for Containers scans these images for vulnerabilities during the CI/CD pipeline, alerting the team to any risks associated with outdated or insecure components. This proactive approach not only helps in mitigating security issues before they reach production but also supports compliance with industry standards by ensuring that container images are secure from the outset.
+
+Once the applications are live, Defender for Containers continues to provide runtime protection. If an anomalous behavior is detected—such as unauthorized access attempts or unusual network traffic—the solution can automatically trigger alerts and initiate remediation steps. Additionally, it offers detailed insights into security posture and potential attack paths within the container environment. This holistic security approach allows organizations to focus on innovation and agility while maintaining a strong security foundation, ultimately enabling them to deliver secure applications to their customers confidently.
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Verify Docker Installation
+- Task 2: Download vulnerable image from Docker Hub into the Container Registry
+- Task 3: Investigate the recommendation for vulnerabilities in ACR
+
+## Task 1: Verify Docker Installation
 
 1. From the **Virtual Machine** desktop click on **Docker**.
  
@@ -38,7 +49,7 @@ This exercise guides you on how to validate and use Defender for Containers.
    ![Docker Version in Powershell](images/docker-version.png)
 
 
-### Exercise 2: Download vulnerable image from Docker Hub into the Container Registry
+## Task 2: Download vulnerable image from Docker Hub into the Container Registry
 
 Now you will use Docker to download a vulnerable image from it and push it into our existing Azure Container registry.
 
@@ -113,7 +124,7 @@ Now you will use Docker to download a vulnerable image from it and push it into 
 
     ![Image in ACR](images/cr-repos.png)
 
-### Exercise 3: Investigate the recommendation for vulnerabilities in ACR
+## Task 3: Investigate the recommendation for vulnerabilities in ACR
 
 Once a vulnerable image has been pushed to the Azure Container Registry, then Microsoft Defender for Containers will start scanning the image for vulnerabilities, by using Qualys. You will now look into the recommendation in Microsoft Defender for Cloud for this. 
  
@@ -136,3 +147,8 @@ Once a vulnerable image has been pushed to the Azure Container Registry, then Mi
 
    ![Debian](images/m2-ex3-step5.png)
  
+## Summary
+
+In this exercise, you verified the installation of Docker to ensure the environment was properly set up for container management. Next, you downloaded a vulnerable image from Docker Hub into the Azure Container Registry (ACR) to simulate potential security risks. Finally, you investigated the recommendations provided by Defender for Containers regarding vulnerabilities in the ACR, allowing you to understand how to mitigate these risks and enhance the security of your containerized applications.
+
+### You have successfully completed the lab
