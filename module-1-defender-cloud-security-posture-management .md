@@ -1,6 +1,6 @@
-# Module 2: Defender Cloud Security Posture Management 
+# Exercise 01: Defender Cloud Security Posture Management
 
-## Overview
+### Estimated Duration: 60 minutes
  
 A hypothetical organization, "Acme Inc." had a robust cybersecurity infrastructure in place. However, one day, an attacker used a brute force or password spraying attack to gain access to an Internet-exposed server of the organization. 
 
@@ -10,12 +10,18 @@ In response to the attack, the security engineers leveraged the attack path anal
 
 However, the IT department didn't stop there. They also took a proactive approach by implementing security recommendations to fix the vulnerabilities on the Internet-exposed servers and prevent similar attacks in the future. They also implemented a robust incident response plan and conducted regular security training for employees to educate them on how to identify and avoid brute force and password spraying attacks. 
 
-Thanks to the combination of both reactive and proactive measures, Acme Inc was able to prevent a major data breach and keep their sensitive information safe. This hypothetical use case demonstrates the importance of having both a reactive and proactive approach when it comes to cybersecurity, including performing attack path and security risk analysis, implementing security recommendations, assigning/managing change actions to the proper owners, and educating employees to prevent future attacks.  
+Thanks to the combination of both reactive and proactive measures, Acme Inc was able to prevent a major data breach and keep their sensitive information safe. This hypothetical use case demonstrates the importance of having both a reactive and proactive approach when it comes to cybersecurity, including performing attack path and security risk analysis, implementing security recommendations, assigning/managing change actions to the proper owners, and educating employees to prevent future attacks. Next exercise will show how to leverage the Attack Path feature of Defender for CSPM. 
 
-Next exercise will show how to leverage the Attack Path feature of Defender for CSPM. 
+## Lab Objectives
 
+You will be able to complete the following tasks:
 
-## Exercise 1: Enabling Defender CSPM plan (Read Only)
+- Task 1: Enabling Defender CSPM plan (Read Only)
+- Task 2: Explore Attack Paths in your Environment (Read Only)
+- Task 3: Build query with Cloud Security Explorer (Read Only)
+- Task 4: Assign Governance Rule
+
+## Task 1: Enabling Defender CSPM plan (Read Only)
 
 In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities
 
@@ -43,7 +49,7 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](images/m1-img5.png)
 
-## Exercise 2: Explore Attack Paths in your Environment (Read Only)
+## Task 2: Explore Attack Paths in your Environment (Read Only)
 
 1. From **Defender for Cloud** menu, open the **Recommendations (1)** page. You will find Attack path tab as below, click on **Attack path (2)**. You will find the Attack Paths in your Environment. 
 
@@ -61,7 +67,7 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
 6. Explore the rest of the Attack paths found in your Environment and remediate.
 
-## Exercise 3: Build query with Cloud Security Explorer (Read Only)
+## Task 3: Build query with Cloud Security Explorer (Read Only)
 
 1. From **Defender for Cloud** menu, open the **Cloud Security Explorer** page.
 
@@ -112,7 +118,7 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](images/m1-img18.png)
 
-## Exercise 4: Assign Governance Rule
+## Task 4: Assign Governance Rule
 
 1. From **Defender for Cloud** menu, click on **Environment Settings (1)** page and select your subscription **(2)**.
 
@@ -148,3 +154,9 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
     ![](images/m1-img23.png)
     
     ![](images/m1-img24.png)
+
+## Summary
+
+In this exercise, you will enable the Defender CSPM plan in read-only mode for compliance monitoring, explore attack paths to identify potential vulnerabilities in your environment, build queries using Cloud Security Explorer for effective security analysis, and assign governance rules to ensure consistent enforcement of security policies across your cloud infrastructure.
+
+### You have successfully completed the lab

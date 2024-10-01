@@ -1,10 +1,24 @@
-# Module 4:  Configuring Azure ADO Connector in Defender for DevOps
+# Exercise 03: Configuring Azure ADO Connector in Defender for DevOps
 
-## Objectives
-In this exercise, you will learn how to configure Azure ADO Connector in Defender for DevOps.
+### Estimated Duration: 150 minutes
 
-### Exercise 1: Configuring Azure ADO Connector
-In this exercise you will create a new Azure DevOps organization.
+Configuring the Azure Active Directory (ADO) Connector in Microsoft Defender for DevOps enhances security in development environments by integrating identity management and access controls into CI/CD workflows. In a typical scenario, a tech company's development team uses Azure DevOps for collaboration, where the ADO Connector enables fine-grained access controls, ensuring that only authorized personnel can access sensitive resources. This minimizes the risk of unauthorized changes and strengthens the overall security posture.
+
+Additionally, the ADO Connector provides continuous monitoring of user activities within Azure DevOps, triggering alerts for any suspicious behavior, such as unauthorized access or unusual modifications. This proactive security measure not only protects critical projects but also fosters accountability among developers, knowing their actions are monitored. Overall, the ADO Connector helps streamline development processes while maintaining a robust security framework.
+
+## Lab Objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Configuring Azure ADO Connector
+- Task 2: Configure the Microsoft Security DevOps Azure DevOps Extension
+- Task 3: Install Free extension SARIF SAST Scans Tab
+- Task 4: Create a Hosted Build Agent and Pipeline
+- Task 5: Configure your pipeline using YAML
+
+## Task 1: Configuring Azure ADO Connector
+
+In this task you will create a new Azure DevOps organization.
 
 1. Navigate to [Azure DevOps](https://dev.azure.com) and login using the following credentials:
 
@@ -57,7 +71,7 @@ In this exercise you will create a new Azure DevOps organization.
 
       ![](images/m3-img49.png)
 
-### Exercise 2: Configure the Microsoft Security DevOps Azure DevOps Extension
+## Task 2: Configure the Microsoft Security DevOps Azure DevOps Extension
 
 1.	Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
@@ -86,7 +100,7 @@ In this exercise you will create a new Azure DevOps organization.
     >**Note** Admin privileges to the Azure DevOps organization are required to install the extension. If you don’t have access to install the extension, you must request access from your Azure DevOps organization’s administrator during the installation process.
 
 
-### Exercise 3: Install Free extension SARIF SAST Scans Tab
+## Task 3: Install Free extension SARIF SAST Scans Tab
 
 In order to view the scan results (when you execute the pipelines), in an easier and readable format, install this free extension in your Azure DevOps organization.
 
@@ -115,7 +129,7 @@ In order to view the scan results (when you execute the pipelines), in an easier
      ![](images/m3-img20.png)
 
 
-### Exercise 4: Create a Hosted Build Agent and Pipeline
+## Task 4: Create a Hosted Build Agent and Pipeline
 
 1. In the **Azure Portal**, click in the search bar, type **vmss** and then click **Virtual machine scale sets**. 
 
@@ -259,7 +273,7 @@ In order to view the scan results (when you execute the pipelines), in an easier
 
      ![](images/upgradeinst.png)
 
-### Exercise 5: Configure your pipeline using YAML 
+## Task 5: Configure your pipeline using YAML 
 
 The purpose of this exercise is to allow you to see how the extension used by Defender for DevOps will check your pipeline.
 
@@ -359,5 +373,9 @@ The purpose of this exercise is to allow you to see how the extension used by De
 
       ![](images/m3-img45.png)
 
+## Summary
 
+In this exercise, you configured the Azure Active Directory (ADO) Connector to enhance security within your DevOps environment. Next, you set up the Microsoft Security DevOps Azure DevOps Extension to integrate security practices into your CI/CD pipeline. You then installed the free SARIF SAST Scans Tab extension to facilitate static application security testing, allowing for the identification of vulnerabilities early in the development process. Following this, you created a hosted build agent and pipeline to automate the build and deployment workflows. Finally, you configured your pipeline using YAML to define the build and deployment processes, ensuring a streamlined and secure approach to application development.
+
+### You have successfully completed the lab
 
