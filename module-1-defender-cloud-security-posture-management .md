@@ -1,4 +1,6 @@
-# Module 2: Defender Cloud Security Posture Management 
+# Module 1: Defender Cloud Security Posture Management 
+
+### Estimated Duration: 1 Hour
 
 ## Overview
  
@@ -13,7 +15,6 @@ However, the IT department didn't stop there. They also took a proactive approac
 Thanks to the combination of both reactive and proactive measures, Acme Inc was able to prevent a major data breach and keep their sensitive information safe. This hypothetical use case demonstrates the importance of having both a reactive and proactive approach when it comes to cybersecurity, including performing attack path and security risk analysis, implementing security recommendations, assigning/managing change actions to the proper owners, and educating employees to prevent future attacks.  
 
 Next exercise will show how to leverage the Attack Path feature of Defender for CSPM. 
-
 
 ## Exercise 1: Enabling Defender CSPM plan (Read Only)
 
@@ -49,9 +50,11 @@ In this exercise, you have learnt about Enabling Defender Cloud Security Posture
 
 In this exercise, you will investigate and review potential attack paths in your environment in Read-Only mode to understand vulnerabilities without making changes.
 
-1. From **Defender for Cloud** menu, open the **Recommendations (1)** page. You will find Attack path tab as below, click on **Attack path (2)**. You will find the Attack Paths in your Environment. 
+1. From **Defender for Cloud** menu, open **Attack path analysis**.
 
-      ![](images/m1-img13.1.png)
+    ![](./images/upimg1.png)
+
+    >**Note:** You may not find any attack paths in your environment as we have enabled Defender CSPM recently, it will take time. As this is a read-only task just continue with further steps.
 
 2. Click on **Attack path**. You will find the Attack Paths in your Environment. 
 
@@ -167,6 +170,7 @@ This exercise involves assigning governance rules to ensure compliance and enfor
   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary
+
 In this module,you have completed essential cloud security tasks, starting with enabling the Defender CSPM plan in Read-Only mode to review security posture then exploring attack paths and potential vulnerabilities in your environment, build and analyze queries using Cloud Security Explorer, and finally, assigned governance rules to ensure compliance and effective policy management.
 
 
