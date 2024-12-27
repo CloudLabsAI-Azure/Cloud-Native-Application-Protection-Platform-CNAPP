@@ -28,6 +28,8 @@ The architecture of the lab integrates various Azure services and components to 
 
 ## Architechture Diagram
 
+![](./images/module1arch.png)
+
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
