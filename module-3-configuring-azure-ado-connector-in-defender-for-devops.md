@@ -217,7 +217,6 @@ In this exercise, you will create a hosted build agent and pipeline to automate 
         Start-Process msiexec.exe -ArgumentList $arguments -Wait
         sleep 5
         ```
-
         ![](images/nodejs1.png)
      
 19. Paste the following commands to install ***dotnet* (1)** and click on **Run (2)** button.
