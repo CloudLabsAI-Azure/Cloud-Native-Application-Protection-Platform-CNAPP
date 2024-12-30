@@ -259,7 +259,6 @@ In this exercise, you will create a hosted build agent and pipeline to automate 
 
         ![](images/m3-img28.png)
 
-
 23. In the bottom of left navigation page, click **Project settings** option.
 
         ![](images/m3-img29.png)
@@ -321,94 +320,94 @@ The purpose of this exercise is to allow you to see how the extension used by De
 
 3. Navigate to following Git Repository **(1)** and click on **Fork (2)**.
    
-      ```
-      https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main
-      ```
+        ```
+        https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main
+        ```
      
-    ![](images/m4-img22.png)
+        ![](images/m4-img22.png)
 
 4. In **Create a new fork**, disable **Copy the main branch only (1)** and click **Create fork (1)**. 
 
-      ![](images/m4-img23.png)
+        ![](images/m4-img23.png)
 
 5. Once the repository is forked click on **Code (1)** and copy the **URL (2)**. Paste into any text editor like *Notepad*.
 
-      ![](images/giturl.png)
+        ![](images/giturl.png)
 
 6. Login to the **Azure DevOps**(https://dev.azure.com) and open your **Project**.
 
-     ![](images/m3-img28.png)
+        ![](images/m3-img28.png)
 
 7. From the left pane, click on **Repos (1)** and click **Import (2)** under **Import a repository**.
 
-     ![](images/importrepo.png)
+        ![](images/importrepo.png)
 
 8. On the **Import a Git repository** pane, for **Clone URL (1)** paste the **URL** you copied the previous, then click **Import (2)**.
 
-     ![](images/gitimport.png)
+        ![](images/gitimport.png)
 
 9. Next, in the left navigation pane, click **Pipelines (1)**. In the right pane, click **Create Pipeline (2)** button.
 
-     ![](images/m3-img36.png)
+        ![](images/m3-img36.png)
 
 10. In the **Where is your code?** page, click **Azure Repos Git**.
 
-     ![](images/m3-img37.png)
+        ![](images/m3-img37.png)
 
 11. Click on the existing **Repository**.
 
-     ![](images/m3-img38.png)
+        ![](images/m3-img38.png)
 
 12. In the **Review your pipeline** page, replace the **YAML code (1)** for the one below and click **Save and run (2)** :
 
-      ```
-      # Starter pipeline
-      # Start with a minimal pipeline that you can customize to build and deploy your code.
-      # Add steps that build, run tests, deploy, and more:
-      # https://aka.ms/yaml
-      trigger: none
-      pool: windows-build-agents
-      steps:
-      - task: UseDotNet@2
-        displayName: 'Use dotnet'
-        inputs:
-          version: 3.1.x
-      - task: UseDotNet@2
-        displayName: 'Use dotnet'
-        inputs:
-          version: 5.0.x
-      - task: UseDotNet@2
-        displayName: 'Use dotnet'
-        inputs:
-          version: 6.0.x
-      - task: MicrosoftSecurityDevOps@1
-        displayName: 'Microsoft Security DevOps'
-      ```
+        ```
+        # Starter pipeline
+        # Start with a minimal pipeline that you can customize to build and deploy your code.
+        # Add steps that build, run tests, deploy, and more:
+        # https://aka.ms/yaml
+        trigger: none
+        pool: windows-build-agents
+        steps:
+        - task: UseDotNet@2
+          displayName: 'Use dotnet'
+          inputs:
+            version: 3.1.x
+        - task: UseDotNet@2
+          displayName: 'Use dotnet'
+          inputs:
+            version: 5.0.x
+        - task: UseDotNet@2
+          displayName: 'Use dotnet'
+          inputs:
+            version: 6.0.x
+        - task: MicrosoftSecurityDevOps@1
+          displayName: 'Microsoft Security DevOps'
+        ```
      
-      ![](images/m3-img39.png)
+        ![](images/m3-img39.png)
 
-      > **Note**: Observe that the pool is pointing to windows-build-agents, which is the VMSS that you created.
+        > **Note**: Observe that the pool is pointing to windows-build-agents, which is the VMSS that you created.
 
 13. Click the **Save and run** button again.
 
-      ![](images/m3-img40.png)
+       ![](images/m3-img40.png)
 
-    > **Note**: At this point the job will queue up to run. This step may take some time to spin up a build agent in the VMSS. During this time, if you go back to VMSS dashboard you will see that the instance is getting created.
+       > **Note**: At this point the job will queue up to run. This step may take some time to spin up a build agent in the VMSS. During this time, if you go back to VMSS dashboard you will see that the instance is getting created.
 
 14. In a few more minutes, the job will start to have some activity as shown the example below:
 
-      ![](images/m3-img44.png)
+       ![](images/m3-img44.png)
 
 15. Once it finishes you can see scan done by Defender for DevOps. To do that click **Microsoft Security DevOps** section in the left and you will see the output of the actions that were done as shown below:
 
-      ![](images/m3-img45.png)
+       ![](images/m3-img45.png)
 
-    <validation step="847540fb-759b-44cd-b6ca-b2b88f5ce8e9" />
+   <validation step="847540fb-759b-44cd-b6ca-b2b88f5ce8e9" />
 
-	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 This exercise focuses on configuring your pipeline using YAML to observe how the Defender for DevOps extension evaluates and checks the pipeline.
 
