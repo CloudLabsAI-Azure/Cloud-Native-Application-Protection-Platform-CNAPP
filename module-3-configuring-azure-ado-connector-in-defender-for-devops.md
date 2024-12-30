@@ -104,27 +104,27 @@ In this exercise, In order to view the scan results (when you execute the pipeli
 
 1. In **Azure DevOps** from the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
-      ![](images/m3-img10.png)
+       ![](images/m3-img10.png)
      
 2. In the marketplace search and select **SARIF SANST Scans** extension.
 
-      ![](images/m3-img16.png)
+       ![](images/m3-img16.png)
 
 3. Next click on **Get it free**.
 
-      ![](images/m3-img17.png)
+       ![](images/m3-img17.png)
 
 4. Choose your **Organization (1)** from the dropdown menu, select **Install (2)**.
 
-      ![](images/m3-img18.png)
+       ![](images/m3-img18.png)
 
 5. Click on **Proceed to Organization**. 
 
-      ![](images/m3-img19.png)
+       ![](images/m3-img19.png)
 
 6. From **Organization settings**, click on **Extensions (1)** under **Installed (2)** extensions you can view the **SARIF SANST Scans (3)** extension that is installed. 
 
-      ![](images/m3-img20.png)
+       ![](images/m3-img20.png)
 
 This exercise involves installing the free SARIF SAST Scans Tab extension to enable static application security testing and integrate it into your development environment.
 
