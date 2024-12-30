@@ -1,10 +1,18 @@
-# Module 1: Defender for Containers
+# Module: Defender for Containers
 
-### Estimated Duration: 1 Hour
+### Estimated Duration: 60 Minutes
 
 ## Overview
 
 This module focuses on container security by leveraging Microsoft Defender for Containers. It guides you through verifying Docker installation, managing vulnerable images, and using Defender for Cloud to assess and remediate vulnerabilities. These exercises will familiarize you with critical container security practices, ensuring your containerized applications are secure and compliant.
+
+## Lab Objectives: 
+
+You will be able to complete the following exercises:
+
+- Verify Docker Installation
+- Download vulnerable image from Docker Hub into the Container Registry
+- Investigate the recommendation for vulnerabilities in ACR 
 
 ### Exercise 1: Verify Docker Installation
 

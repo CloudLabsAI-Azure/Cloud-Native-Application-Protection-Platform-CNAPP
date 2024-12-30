@@ -1,6 +1,6 @@
 # Defender Cloud Security Posture Management
 
-### Overall Estimated Duration: 1 Hour
+### Overall Estimated Duration: 60 Minutes
 
 ## Overview
 

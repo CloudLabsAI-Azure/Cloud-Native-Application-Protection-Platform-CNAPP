@@ -1,8 +1,20 @@
-# Module 1:  Configuring Azure ADO Connector in Defender for DevOps
+# Module: Configuring Azure ADO Connector in Defender for DevOps
+
+### Estimated Duration: 90 Minutes
 
 ## Overview
 
 In this module, you will learn how to configure the Azure ADO Connector in Microsoft Defender for DevOps. This integration enhances security insights and risk management within CI/CD pipelines, providing you with tools to monitor and remediate vulnerabilities across your development lifecycle seamlessly.
+
+## Lab Objectives: 
+
+You will be able to complete the following exercises:
+
+- Configuring Azure ADO Connector
+- Configure the Microsoft Security DevOps Azure DevOps Extension
+- Install Free extension SARIF SAST Scans Tab
+- Create a Hosted Build Agent and Pipeline
+- Configure your pipeline using YAML
 
 ### Exercise 1: Configuring Azure ADO Connector
 In this exercise you will create a new Azure DevOps organization.

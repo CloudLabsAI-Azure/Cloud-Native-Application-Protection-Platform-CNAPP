@@ -1,7 +1,17 @@
-# Module 1:  Integrating Defender for DevOps with GitHub Advanced Security
+# Module: Integrating Defender for DevOps with GitHub Advanced Security
 
-## Objectives
-In this Module, you will learn how to configure GitHub Connector in Defender for DevOps.
+### Estimated Duration: 60 Minutes
+
+## Overview
+
+In this module, you will learn how to configure the GitHub Connector in Defender for DevOps. This integration combines GitHub Advanced Security features with Defender for DevOps, enabling comprehensive code scanning, threat protection, and actionable security insights to enhance your CI/CD pipelines.
+
+## Lab Objectives: 
+
+You will be able to complete the following exercises:
+
+- Connecting your GitHub organization
+- Configure the Microsoft Security DevOps GitHub action
 
 ### Exercise 1: Connecting your GitHub organization
 

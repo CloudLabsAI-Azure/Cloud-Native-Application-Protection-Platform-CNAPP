@@ -1,6 +1,6 @@
-# Module 1: Defender Cloud Security Posture Management 
+# Module: Defender Cloud Security Posture Management 
 
-### Estimated Duration: 1 Hour
+### Estimated Duration: 60 Minutes
 
 ## Overview
  
@@ -15,6 +15,15 @@ However, the IT department didn't stop there. They also took a proactive approac
 Thanks to the combination of both reactive and proactive measures, Acme Inc was able to prevent a major data breach and keep their sensitive information safe. This hypothetical use case demonstrates the importance of having both a reactive and proactive approach when it comes to cybersecurity, including performing attack path and security risk analysis, implementing security recommendations, assigning/managing change actions to the proper owners, and educating employees to prevent future attacks.  
 
 Next exercise will show how to leverage the Attack Path feature of Defender for CSPM. 
+
+## Lab Objectives: 
+
+You will be able to complete the following exercises:
+
+- Enabling Defender CSPM plan (Read Only)
+- Explore Attack Paths in your Environment (Read Only)
+- Build query with Cloud Security Explorer (Read Only) 
+- Assign Governance Rule
 
 ## Exercise 1: Enabling Defender CSPM plan (Read Only)
 

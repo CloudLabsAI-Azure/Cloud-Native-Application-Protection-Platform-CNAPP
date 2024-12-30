@@ -1,6 +1,6 @@
-# Configuring Azure ADO Connector in Defender for DevOps
+# Integrating Defender for DevOps with GitHub Advanced Security
 
-### Overall Estimated Duration: 90 Minutes
+### Overall Estimated Duration: 60 Minutes
 
 ## Overview
 
@@ -12,7 +12,7 @@ For a retail company like Contoso, transitioning to a cloud-native architecture 
 
 The objective of the CNAPP lab is to equip participants with the skills to secure and manage cloud-native applications through hands-on experience in visibility, risk assessment, and threat detection.
 
-- **Configuring Azure ADO Connector in Defender for DevOps:** To enable seamless integration between Azure DevOps and Defender for DevOps, enhancing security insights and risk management within CI/CD pipelines.
+- **Integrating Defender for DevOps with GitHub Advanced Security:** To strengthen application security by combining GitHub Advanced Security features with Defender for DevOps for comprehensive code scanning and threat protection.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ The architecture of the lab integrates various Azure services and components to 
 
 ## Architechture Diagram
 
-![](./images/module3arch.png)
+![](./images/module4arch.png)
 
 ## Explanation of Components
 
