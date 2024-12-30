@@ -111,11 +111,11 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
 
 10. Check again the image on your local repository by running the command and make sure to replace **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command:
 
-   ```
-   docker images NameOfServer.azurecr.io/vulnerables/web-dvwa
-   ```
+    ```
+    docker images NameOfServer.azurecr.io/vulnerables/web-dvwa
+    ```
 
-   ![Docker images](images/docker-image.png)
+    ![Docker images](images/docker-image.png)
 
 
 11. Run docker push to upload the new image to the azure repository and generate image scan (it can take some time), using the below command and make sure to replace **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command:
@@ -143,35 +143,35 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
 
 This exercise involves downloading a vulnerable Docker image from Docker Hub and importing it into your Container Registry for further analysis.
 
-
 ### Exercise 3: Investigate the recommendation for vulnerabilities in ACR 
 
 In th exercise, Once a vulnerable image has been pushed to the Azure Container Registry, then Microsoft Defender for Containers will start scanning the image for vulnerabilities, by using Qualys. You will now look into the recommendation in Microsoft Defender for Cloud for this. 
  
 1. In the Azure Portal, search for Microsoft Defender **(1)** in the search box and then select **Microsoft Defender for Cloud** **(2)**.
 
-    ![Microsoft Defender](images/m2-ex3-step1.png)
+     ![Microsoft Defender](images/m2-ex3-step1.png)
    
 2. From the **Microsoft Defender for Cloud** pane, select **Recommendations** from left-menu under General.
 
-    ![Microsoft Defender](images/cnapp2.png)
+     ![Microsoft Defender](images/cnapp2.png)
  
 3. Now scroll down through the Title untill you find **Azure registry container registry images should have vulnerability findings resolved**, then click on it to get more details about it.
    
-    ![Recommendation for vulnerabilities in ACR](images/cnapp3.png)
-   >**Note:** It may take few minutes to update the recommendations.
+     ![Recommendation for vulnerabilities in ACR](images/cnapp3.png)
+
+     >**Note:** It may take few minutes to update the recommendations.
 
 1. Click on **view recommendation for all resources**.
 
-    ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.2.png)
+     ![Recommendation for vulnerabilities in ACR](images/m2-ex3-step3.2.png)
 
 4. Look around at what's available in the recommendation. Take a note of the Remediation Steps.
 
-    ![Remediation Steps](images/m2-ex3-step4.1.png)
+     ![Remediation Steps](images/m2-ex3-step4.1.png)
   
 5. Select the **vulnerability** ***Azure registry container registry images should have vulnerability findings resolved***, under **vulnerabilites**, select one of the items in the list to get additional details about the patch available for it and how to remediate it.
 
-   ![Debian](images/m2-ex3-step5.1.png)
+     ![Debian](images/m2-ex3-step5.1.png)
 
 This exercise involves examining and exploring recommendations to address vulnerabilities found in Azure Container Registry (ACR).
 
