@@ -134,123 +134,123 @@ In this exercise, you will create a hosted build agent and pipeline to automate 
 
 1. In the **Azure Portal**, click in the search bar, type **vmss** and then click **Virtual machine scale sets**. 
 
-     ![](images/m3-img21.png)
+       ![](images/m3-img21.png)
 
 2. Click **Create** button.
 
-     ![](images/m3-img22.png)
+       ![](images/m3-img22.png)
 
 3. In the Create a virtual machine scale set page, select your **Subscription (1)**, select **asclab (2)** resource group, provide the **Virtual machine scale set name** as `build-agent` **(3)**, for **Region** select **<inject key="Resource group Location" enableCopy="false" /> (4)**, for **Orchestration mode** select **Uniform (5)** leave all other options as is and change the image to **Windows Server 2022 Datacentre: Azure Edition Core - x64 Gen2 (6)**.
 
-     ![](images/m3-img50.png)
+       ![](images/m3-img50.png)
 
 4. In the same page, enter the following username and password for **VMSS** and click **Networking** tab.
 
-    - **Username**: `demouser` 
-    - **Password**: `demo!pass123`
-    - **Confirm password**: `demo!pass123`
+      - **Username**: `demouser` 
+      - **Password**: `demo!pass123`
+      - **Confirm password**: `demo!pass123`
 
-     ![](images/m3-img24.1.png)
+        ![](images/m3-img24.1.png)
 
 5. In the Networking tab, click on **Edit** under **Network Interface**.
 
-     ![](images/m3-img53.png)
+       ![](images/m3-img53.png)
 
 6. In **Edit Network Interface** tab, set the toggle button to **Enabled** for **Public IP address (1)** and click on **OK**.
 
-     ![](images/editnic.png)
-
+       ![](images/editnic.png)
+ 
 7. Once you are back on the **Networking** tab click **Review + Create**.
 
-     ![](images/m3-img55.png)
+       ![](images/m3-img55.png)
 
 8. In the next page, you should see that all the validation are passed and now you can click **Create** button. The deployment will take a few minutes to complete.
 
-     ![](images/m3-img51.1.png)
+       ![](images/m3-img51.1.png)
 
 9. Once the deployment is completed, click on **Go to resource** button.
 
-     ![](images/m3-img26.png)
-
+       ![](images/m3-img26.png)
+ 
 10. In the **build-agent** page, click on **Instances** option in the left. Confirm that the build-agents are **Running**. 
 
-     ![](images/m3a-img27.png)
+        ![](images/m3a-img27.png)
 
 11. Navigate to **build-agent_1** and click on **Network Setting (1)**, click on **create port rule (2)** and select **inbound port rule (3)**.
 
-     ![](images/addport1.png)
+        ![](images/addport1.png)
 
 12. Enter `3389` **(1)** under **Destination port range** and click **Add (2)**.
      
-     ![](images/rdp.png)
+        ![](images/rdp.png)
 
 13. From the **Overview (1)** page, copy the **Public IP address (2)** and paste in a text editor like ***Notepad***.
    
-     ![](images/copyip.png)
+        ![](images/copyip.png)
 
 14. On your **Labvm**, search for **rdp** in windows search and select **Remote Desktop Connection**.
 
-     ![](images/rdplog.png)
+        ![](images/rdplog.png)
  
 15. Enter the **IP** you copied earlier and click **Connect**.
 
-     ![](images/ip.png)
+        ![](images/ip.png)
 
 16. Enter the following credentials and click **OK**.
 
-    - **Username**: `.\demouser` 
-    - **Password**: `demo!pass123`
+      - **Username**: `.\demouser` 
+      - **Password**: `demo!pass123`
 
-     ![](images/userpwd.png)
+         ![](images/userpwd.png)
 
 17. Once you enter the remote session, search for **powershell** in windows search and select **Powershell ISE**.
 
-     ![](images/powershellise.png)
+        ![](images/powershellise.png)
 
 18. Paste the following commands to install ***nodejs (1)*** and click on **Run (2)** button. 
 
-     ```
-    #Install nodejs v16.8.0
-    $WebClient = New-Object System.Net.WebClient
-    $WebClient.DownloadFile("https://nodejs.org/download/release/v16.8.0/node-v16.8.0-x64.msi","C:\node-v16.8.0-x64.msi")
-    $arguments = "/i `"C:\node-v16.8.0-x64.msi`" /quiet"
-    Start-Process msiexec.exe -ArgumentList $arguments -Wait
-    sleep 5
-      ```
+       ```
+       #Install nodejs v16.8.0
+       $WebClient = New-Object System.Net.WebClient
+       $WebClient.DownloadFile("https://nodejs.org/download/release/v16.8.0/node-v16.8.0-x64.msi","C:\node-v16.8.0-x64.msi")
+       $arguments = "/i `"C:\node-v16.8.0-x64.msi`" /quiet"
+       Start-Process msiexec.exe -ArgumentList $arguments -Wait
+       sleep 5
+       ```
 
-     ![](images/nodejs1.png)
+        ![](images/nodejs1.png)
      
 19. Paste the following commands to install ***dotnet* (1)** and click on **Run (2)** button.
 
-    ```
-    $WebClient = New-Object System.Net.WebClient
-    $WebClient.DownloadFile("https://download.visualstudio.microsoft.com/download/pr/34d3e426-9f3c-45a6-8496-f21b3adbbf5f/475aec17378cc8ab0fcfe535e84698f9/aspnetcore-runtime-8.0.2-win-x64.exe","C:\aspnetcore-runtime-8.0.2-win-x64.exe")
-    $arguments = "/install /quiet /norestart"
-    Start-Process "C:\aspnetcore-runtime-8.0.2-win-x64.exe" -ArgumentList $arguments -Wait
-    sleep 5
-    ```
-    ![](images/dotnet-runtime.png)
+       ```
+       $WebClient = New-Object System.Net.WebClient
+       $WebClient.DownloadFile("https://download.visualstudio.microsoft.com/download/pr/34d3e426-9f3c-45a6-8496-f21b3adbbf5f/475aec17378cc8ab0fcfe535e84698f9/aspnetcore-runtime-8.0.2-win-x64.exe","C:\aspnetcore-runtime-8.0.2-win-x64.exe")
+       $arguments = "/install /quiet /norestart"
+       Start-Process "C:\aspnetcore-runtime-8.0.2-win-x64.exe" -ArgumentList $arguments -Wait
+       sleep 5
+       ```
+        ![](images/dotnet-runtime.png)
 
-    ```
-    $WebClient = New-Object System.Net.WebClient
-    $WebClient.DownloadFile("https://download.visualstudio.microsoft.com/download/pr/ab5e947d-3bfc-4948-94a1-847576d949d4/bb11039b70476a33d2023df6f8201ae2/dotnet-sdk-8.0.201-win-x64.exe","C:\dotnet-sdk-8.0.201-win-x64.exe")
-    $arguments = "/install /quiet /norestart"
-    Start-Process "C:\dotnet-sdk-8.0.201-win-x64.exe" -ArgumentList $arguments -Wait
-    sleep 5
-    ```
-    ![](images/dotnet-sdk.png)
+       ```
+       $WebClient = New-Object System.Net.WebClient
+       $WebClient.DownloadFile("https://download.visualstudio.microsoft.com/download/pr/ab5e947d-3bfc-4948-94a1-847576d949d4/bb11039b70476a33d2023df6f8201ae2/dotnet-sdk-8.0.201-win-x64.exe","C:\dotnet-sdk-8.0.201-win-x64.exe")
+       $arguments = "/install /quiet /norestart"
+       Start-Process "C:\dotnet-sdk-8.0.201-win-x64.exe" -ArgumentList $arguments -Wait
+       sleep 5
+       ```
+        ![](images/dotnet-sdk.png)
 
 19. Next, in the windows search bar type ***cmd*** and select **Command Prompt**.
 
-     ![](images/cmd1.png)
+        ![](images/cmd1.png)
 
 20. In the command prompt, run the following npm command.
 
-      ```
-      npm.cmd install --loglevel error eslint@7.32.0 typescript@4.3.2 @microsoft/eslint-plugin-sdl@0.1.7 eslint-plugin-react@7.24.0 eslint-plugin-security@1.4.0 @typescript-eslint/typescript-estree@4.27.0 @typescript-eslint/parser@4.27.0 @typescript-eslint/eslint-plugin@4.27.0 @microsoft/eslint-formatter-sarif@2.1.5 eslint-plugin-node@11.1.0 --prefix C:\a\_msdo\packages\node_modules\eslint –global
-      ```
+        ```
+        npm.cmd install --loglevel error eslint@7.32.0 typescript@4.3.2 @microsoft/eslint-plugin-sdl@0.1.7 eslint-plugin-react@7.24.0 eslint-plugin-security@1.4.0 @typescript-eslint/typescript-estree@4.27.0 @typescript-eslint/parser@4.27.0 @typescript-eslint/eslint-plugin@4.27.0 @microsoft/eslint-formatter-sarif@2.1.5 eslint-plugin-node@11.1.0 --prefix C:\a\_msdo\packages\node_modules\eslint –global
+        ```
      
-     ![](images/npm1.png)
+        ![](images/npm1.png)
 
 21. Close the **RDP** session by clicking on **X**.
 
