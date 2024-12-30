@@ -70,29 +70,29 @@ In this exercise, you will configure the Microsoft Security DevOps Azure DevOps 
 
 1. Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
-      ![](images/m3-img10.png)
+       ![](images/m3-img10.png)
 
 2. In the marketplace search and select **Microsoft Security DevOps** extension.  
 
-      ![](images/m3-img11.png)
+       ![](images/m3-img11.png)
 
 3. Next click on **Get it free**.
 
-      ![](images/m3-img12.png)
+       ![](images/m3-img12.png)
 
 4. Choose your **Organization (1)** from the dropdown menu, select **Install (2)**.
 
-      ![](images/m3-img13.png)
+       ![](images/m3-img13.png)
 
-      >**Note:** If this is already installed, directly move to next exercise and continue further.
+       >**Note:** If this is already installed, directly move to next exercise and continue further.
 
 5. Click on **Proceed to Organization**. 
 
-     ![](images/m3-img14.png)
+       ![](images/m3-img14.png)
 
 6. From **Organization settings**, click on **Extensions (1)** under **Installed (2)** extensions you can view the **Microsoft Security DevOps (3)** extension that is installed. 
 
-      ![](images/m3-img15.png)
+       ![](images/m3-img15.png)
 
     >**Note** Admin privileges to the Azure DevOps organization are required to install the extension. If you don’t have access to install the extension, you must request access from your Azure DevOps organization’s administrator during the installation process.
 
