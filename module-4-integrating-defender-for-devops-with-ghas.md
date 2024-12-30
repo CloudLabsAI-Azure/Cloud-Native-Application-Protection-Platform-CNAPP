@@ -1,4 +1,4 @@
-# Module 2:  Integrating Defender for DevOps with GitHub Advanced Security
+# Module 1:  Integrating Defender for DevOps with GitHub Advanced Security
 
 ## Objectives
 In this Module, you will learn how to configure GitHub Connector in Defender for DevOps.

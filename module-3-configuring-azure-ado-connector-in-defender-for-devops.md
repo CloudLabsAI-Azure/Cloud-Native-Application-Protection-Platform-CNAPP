@@ -1,7 +1,8 @@
-# Module 2:  Configuring Azure ADO Connector in Defender for DevOps
+# Module 1:  Configuring Azure ADO Connector in Defender for DevOps
 
-## Objectives
-In this exercise, you will learn how to configure Azure ADO Connector in Defender for DevOps.
+## Overview
+
+In this module, you will learn how to configure the Azure ADO Connector in Microsoft Defender for DevOps. This integration enhances security insights and risk management within CI/CD pipelines, providing you with tools to monitor and remediate vulnerabilities across your development lifecycle seamlessly.
 
 ### Exercise 1: Configuring Azure ADO Connector
 In this exercise you will create a new Azure DevOps organization.
@@ -67,21 +68,23 @@ This exercise involves configuring the Azure DevOps (ADO) connector to integrate
 
 In this exercise, you will configure the Microsoft Security DevOps Azure DevOps Extension to enhance security integrations and capabilities within your DevOps environment.
 
-1.	Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
+1. Navigate back to [Azure DevOps](https://dev.azure.com) tab open in your browser. In the right corner, click in the **Shopping bag icon (1)** and click **Browse marketplace (2)** option.
 
       ![](images/m3-img10.png)
 
-2.	In the marketplace search and select **Microsoft Security DevOps** extension.  
+2. In the marketplace search and select **Microsoft Security DevOps** extension.  
 
       ![](images/m3-img11.png)
 
-3.	Next click on **Get it free**.
+3. Next click on **Get it free**.
 
       ![](images/m3-img12.png)
 
 4. Choose your **Organization (1)** from the dropdown menu, select **Install (2)**.
 
       ![](images/m3-img13.png)
+
+      >**Note:** If this is already installed, directly move to next exercise and continue further.
 
 5. Click on **Proceed to Organization**. 
 
@@ -113,15 +116,15 @@ In this exercise, In order to view the scan results (when you execute the pipeli
 
 4. Choose your **Organization (1)** from the dropdown menu, select **Install (2)**.
 
-     ![](images/m3-img18.png)
+      ![](images/m3-img18.png)
 
 5. Click on **Proceed to Organization**. 
 
-     ![](images/m3-img19.png)
+      ![](images/m3-img19.png)
 
 6. From **Organization settings**, click on **Extensions (1)** under **Installed (2)** extensions you can view the **SARIF SANST Scans (3)** extension that is installed. 
 
-     ![](images/m3-img20.png)
+      ![](images/m3-img20.png)
 
 This exercise involves installing the free SARIF SAST Scans Tab extension to enable static application security testing and integrate it into your development environment.
 

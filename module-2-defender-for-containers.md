@@ -1,4 +1,4 @@
-# Module 2: Defender for Containers
+# Module 1: Defender for Containers
 
 ### Estimated Duration: 1 Hour
 
