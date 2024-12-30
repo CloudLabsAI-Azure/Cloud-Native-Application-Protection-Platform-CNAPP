@@ -94,7 +94,7 @@ In this exercise, you will configure the Microsoft Security DevOps Azure DevOps 
 
        ![](images/m3-img15.png)
 
-    >**Note** Admin privileges to the Azure DevOps organization are required to install the extension. If you don’t have access to install the extension, you must request access from your Azure DevOps organization’s administrator during the installation process.
+       >**Note** Admin privileges to the Azure DevOps organization are required to install the extension. If you don’t have access to install the extension, you must request access from your Azure DevOps organization’s administrator during the installation process.
 
 This exercise involves setting up the Microsoft Security DevOps Azure DevOps Extension to integrate security features and improve DevOps processes.
 
