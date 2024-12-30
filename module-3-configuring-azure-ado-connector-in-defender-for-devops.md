@@ -253,53 +253,53 @@ In this exercise, you will create a hosted build agent and pipeline to automate 
 
 21. Close the **RDP** session by clicking on **X**.
 
-     ![](images/close.png)
+        ![](images/close.png)
 
 22. Navigate to [Azure DevOps](https://dev.azure.com), in the main page, click on your **Project**.
 
-     ![](images/m3-img28.png)
+        ![](images/m3-img28.png)
 
 
 23. In the bottom of left navigation page, click **Project settings** option.
 
-     ![](images/m3-img29.png)
+        ![](images/m3-img29.png)
 
 24. In the left navigation page, under **Pipelines** section, click **Agent pools (1)** option. From the top right corner of the page, click **Add pool (2)** button.
 
-     ![](images/m3-img30.png)
+        ![](images/m3-img30.png)
 
 25. In the **Add agent pool** page, click on the drop down list and select **Azure virtual machine scale set**.
 
-     ![](images/m3-img31.png)
-
+        ![](images/m3-img31.png)
+ 
 26. Select your **subscription (1)** and click **Authorize (2)** button.
 
-     ![](images/m3-img32.png)
+        ![](images/m3-img32.png)
 
 27. After the authorization is done, click on the virtual machine scale set drop-down list and select **build-agent (1)**. Under the **Name** field, enter **windows-build-agents (2)**.
 
-     ![](images/m3-img33.png)
-     >**Note: You may get an error about client not allowed, click button with circle (refresh) to fix**.
+        ![](images/m3-img33.png)
+
+        >**Note: You may get an error about client not allowed, click button with circle (refresh) to fix**.
 
 28. Enter `1` under **Maximum number of virtual machines in the scale set (1)** and **Number of agents to keep on standby (2)** fields then check the box next to **Grant access permission to all pipelines (3)** and click **Create (4)**.
 
-     ![](images/m3-img52.png)
+        ![](images/m3-img52.png)
 
 29. In the **Agent pools** page, you can view newly created pool.
 
-     ![](images/m3-img35.png)
+        ![](images/m3-img35.png)
 
 30. Navigate back to **Azure Portal**, on the **VMSS** page click on **Instances (1)** from the left menu, select both the **Build Agents (2)** and click **Upgrade (3)**.
 
-     ![](images/upgradeinst.png)
+        ![](images/upgradeinst.png)
 
-    <validation step="07bc50d1-a0f3-4fba-81c2-385606d6d5f3" />
+   <validation step="07bc50d1-a0f3-4fba-81c2-385606d6d5f3" />
 
-	  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-	- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-	- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-	- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 This exercise involves setting up a hosted build agent and pipeline to automate and streamline your build and deployment processes.
 
@@ -307,17 +307,17 @@ This exercise involves setting up a hosted build agent and pipeline to automate 
 
 The purpose of this exercise is to allow you to see how the extension used by Defender for DevOps will check your pipeline.
 
-1.	Login to the GitHub using the following URL on the **Labvm**, by fetching the details from **Environment Details (1)** page on the right tab, click on **Licenses (2)** tab and copy the **GitHub credentials (3)**.
+1. Login to the GitHub using the following URL on the **Labvm**, by fetching the details from **Environment Details (1)** page on the right tab, click on **Licenses (2)** tab and copy the **GitHub credentials (3)**.
 
-      ```
-      https://github.com/
-      ```
+        ```
+        https://github.com/
+        ```
 
-      ![](images/gitcred.png)
-
+        ![](images/gitcred.png)
+ 
 2. For Device Verification Code, use the same credentials as in the previous step, open http://outlook.office.com/ in a private window and enter the same username and password used for GitHub Account login. Copy the verification code and Paste code it in Device verification.
 
-   ![](images/email-verify.png)
+        ![](images/email-verify.png)
 
 3. Navigate to following Git Repository **(1)** and click on **Fork (2)**.
    
