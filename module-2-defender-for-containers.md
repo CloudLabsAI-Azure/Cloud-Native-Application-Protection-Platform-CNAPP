@@ -1,7 +1,10 @@
-# Module 2:   Defender for Containers
+# Module 2: Defender for Containers
 
-## Objectives
-This exercise guides you on how to validate and use Defender for Containers.
+### Estimated Duration: 1 Hour
+
+## Overview
+
+This module focuses on container security by leveraging Microsoft Defender for Containers. It guides you through verifying Docker installation, managing vulnerable images, and using Defender for Cloud to assess and remediate vulnerabilities. These exercises will familiarize you with critical container security practices, ensuring your containerized applications are secure and compliant.
 
 ### Exercise 1: Verify Docker Installation
 
@@ -106,13 +109,13 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
 9. Create an alias of the image by running the following command and make sure to replace **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command:
 
    ```
-   docker tag vulnerables/web-dvwa NameOfServer.azurecr.io/vulnerables/web-dvwa
+   docker tag vulnerables/web-dvwa <inject key="Container registry" enableCopy="true"/>.azurecr.io/vulnerables/web-dvwa
    ```
 
 10. Check again the image on your local repository by running the command and make sure to replace **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command:
 
     ```
-    docker images NameOfServer.azurecr.io/vulnerables/web-dvwa
+    docker images <inject key="Container registry" enableCopy="true"/>.azurecr.io/vulnerables/web-dvwa
     ```
 
     ![Docker images](images/docker-image.png)
@@ -121,7 +124,7 @@ In this exercise, Now you will use Docker to download a vulnerable image from it
 11. Run docker push to upload the new image to the azure repository and generate image scan (it can take some time), using the below command and make sure to replace **NameOfServer** to **<inject key="Container registry" enableCopy="true"/>** and then run the below command:
 
     ```
-    docker push NameOfServer.azurecr.io/vulnerables/web-dvwa
+    docker push <inject key="Container registry" enableCopy="true"/>.azurecr.io/vulnerables/web-dvwa
     ```
 
     ![Docker images](images/docker-push.png)
